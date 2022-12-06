@@ -1,5 +1,7 @@
 A simple journal displaying travel locations that populates from a static file.
 
+Link to the deployed website http://christinagraham.tech/travel/
+
 Future refactoring plans would include: 
     -Replacing the static file with an event source database (would not need full CRUD operations). 
     -Handling undefined and null (in the event a URL was moved/removed) for potential broken links and images.
