@@ -1,38 +1,90 @@
 .App {
-  text-align: center;
+  font-family: "Inter";
+  color: #231123;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.050em;
+  height: 55px;
+  background: #492a54;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px #231123;
+  color: #00ba72;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.cards-list {
+  margin: 40px 40px 0px 40px;
+  overflow-x: auto;
+  gap: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  display: flex;
+  margin-bottom: 40px;
+}
+.card--image {
+  margin-right: 19px;
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+.description,
+.country,
+.date,
+.map {
+  font-size: 11px;
+}
+.map,
+a:visited,
+a:link {
+  text-decoration: #492a54;
+  color: #492a54;
+  text-decoration-line: underline;
+}
+a:hover {
+  color: #00ba72;
+  text-decoration: #00ba72;
+}
+.card--info {
+  justify-items: flex-start;
+}
+.journal {
+  margin-left: 7px;
+}
+.globe {
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px / 2 - 50px);
+  top: calc(50% - 24px / 2 - 324px);
+}
+.marker {
+  width: 7px;
+  height: 9.55px;
+  left: calc(50% - 7px / 2 - 87.5px);
+  top: calc(50% - 9.55px / 2 - 227.23px);
+  color: #00ba72;
+  margin-right: 4px;
+}
+.card--title {
+  display: flex;
+  align-items: center;
+}
+.country {
+  margin-right: 12px;
+  letter-spacing: 0.17em;
+}
+.location {
+  margin: 0px 0px 7px 0px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.date {
+  font-weight: 700;
 }
