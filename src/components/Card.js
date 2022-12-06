@@ -2,7 +2,13 @@ import React from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 
-
+/**
+ * A React component written with ES6 syntax. It takes in props as an argument. 
+ * The title is comprised of a country name passed in through props and a 
+ * link to the Google Maps page for that location.
+ * @param {*} props 
+ * @returns a div with an image, a title, a location, a date, and a description.
+ */
 export default function Card(props) {
   return (
     <div className="card">
