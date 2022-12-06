@@ -1,6 +1,6 @@
 {
   "name": "travel",
-  "homepage":"/travel/",
+  "homepage":"projects/travel/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
