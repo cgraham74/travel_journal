@@ -1,6 +1,6 @@
 A simple journal displaying travel locations that populates from a static file.
 
-Link to the deployed website http://christinagraham.tech/travel/
+Link to the deployed website http://christina-graham.com/travel/
 
 Future refactoring plans would include: 
     -Replacing the static file with an event source database (would not need full CRUD operations). 
